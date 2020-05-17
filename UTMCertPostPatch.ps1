@@ -1,5 +1,5 @@
 function IssueCert{
-New-PACertificate $URL -AcceptTOS -Contact $ContactEmail -DnsPlugin DMEasy -PluginArgs $DMEParams -Verbose -PfxPass "$DevPFX" -Install -Force | Out-Null
+New-PACertificate $URL -AcceptTOS -Contact $ContactEmail -DnsPlugin DMEasy -PluginArgs $DMEParams -Verbose -PfxPass "$DevPFX" -Force | Out-Null
 $CertFolderPath = Get-ChildItem -Directory -Path $env:POSHACME_HOME -Recurse -Filter $URL | select FullName -ExpandProperty FullName
 return $CertFolderPath
 
