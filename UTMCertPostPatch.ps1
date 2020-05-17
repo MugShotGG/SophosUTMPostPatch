@@ -102,6 +102,7 @@ $509Format = "$CertAsText" + "$CertContent"
 ################################################################################################
 
 #Youll need to upload the Lets Encrypt Root cert and get its REF. Not a great way to show that programtically 
+#Download here https://letsencrypt.org/certs/isrgrootx1.pem.txt
 $CA = "REF_CaVerLetsEncryCa"
 
 
