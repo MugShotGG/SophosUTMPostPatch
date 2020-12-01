@@ -8,9 +8,9 @@ https://github.com/rmbolger/Posh-ACME
 
 Next youll want OpenSSL to do some of the formating for you or it will be a pain
 
-Params are pretty self explanitory 
-IsNewCert 
-Domain
-CertPath
+Params are pretty self explanitory: 
+IsNewCert, 
+Domain,
+CertPath,
 KeyPath
 
